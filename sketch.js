@@ -16,4 +16,16 @@ function draw() {
   
   fill("blue");
   circle(200,25,105);
+  //celebrando a conexao do campo com a cidade.
+  
+  let palavra = "AGRINHO";
+  fill("white");
+  textSize(40);
+  text(palavra,105,250 );
+
+  let palavra1 = "2025";
+fill("black");
+  textSize(25);
+  text(palavra1,167,280);
+  
 }
