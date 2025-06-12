@@ -1,4 +1,4 @@
-
+function setup() {
   createCanvas(400, 400);
 }
 
@@ -16,7 +16,7 @@ function draw() {
   
   fill("blue");
   circle(200,25,105);
-  //celebrando a conexao do campo com a cidade.
+  //celebrando a conexão do campo com a cidade.
   
   let palavra = "AGRINHO";
   fill("white");
@@ -27,5 +27,12 @@ function draw() {
 fill("black");
   textSize(25);
   text(palavra1,167,280);
+  
+  let palavra3 = "aperte espaço para começar" ;
+  fill ("white");
+  text(palavra3, 30,380);
+  
+  
+  
   
 }
